@@ -1,0 +1,88 @@
+
+body{
+    background-color:#f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+.post_img{
+    border:1px solid #505050;
+    border-radius: 70px;
+}
+#title, .subtitle, .post_title {
+    color:#505050;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom 15px;
+}
+ .post{
+     background: #fff;
+     padding: 15px;
+    border: 3px solid #505050;
+    margin: 15px;
+    border-radius: 9px;
+    
+ }
+ .post_content{
+     margin: 0;
+     margin-bottom: 15px;
+     text-align: justify;
+ }
+ #title{
+     font-family: verdana;
+     font-size: 30px;
+     font-style: italic;
+     text-decoration:underline;
+ }
+ .subtitle{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 22px;
+     font-style: italic;
+     text-decoration:underline;
+ }
+ .post_title {
+     font-family: verdana, arial;
+     font-size: 18px;
+     font-style: italic;
+ }
+ .post_content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration:underline;
+    color: #505050;
+}
+.contacts_list{
+    list-style-type: none;
+    padding-left: 10px;
+}
+.imagehtml{
+    width: 100%;
+}
+.final{
+    text-align: center;
+}
+/* link whatsapp*/
+.whatsapp-link{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 50px;
+    right: 50px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 6px #888;
+    z-index: 1000;
+}
+.fa-whatsapp{
+    margin-top: 20px;
+
+}
